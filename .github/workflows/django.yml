@@ -23,10 +23,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install Dependencies
       run: |
-        .\project_django\Scripts\activate
         python -m pip install --upgrade pip
-        cd myproject
-        pip install -r requirements.txt
+        pip install -r myproject/requirements.txt
     - name: Run Tests
       run: |
         python manage.py test
