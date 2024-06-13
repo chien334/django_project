@@ -1,9 +1,0 @@
-django
-numpy
-pandas
-scipy
-tensorflow
-streamlit
-matplotlib
-pillow
-opencv-python
